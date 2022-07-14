@@ -29,8 +29,8 @@ const Basic = (props: IBasicProps) => {
         </div>
       )}
 
-      <div>{props.children}</div>
-      <div className="border-t border-gray-300 py-8 text-center text-sm">
+      <div className="h-[calc(100vh-10.5rem)]">{props.children}</div>
+      <div className="h-10 border-t border-gray-300 pt-4 text-center text-xs">
         © Copyright {new Date().getFullYear()} Poppymail. Powered with{' '}
         <span role="img" aria-label="Love">
           ♥
