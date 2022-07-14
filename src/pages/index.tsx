@@ -14,13 +14,13 @@ const Index = () => {
       }
     >
       <Basic title={'파피메일'}>
-        <div className="flex h-96 w-full flex-col items-center justify-center">
+        <div className="flex h-[27rem] w-full flex-col items-center justify-center">
           <img
-            className="mb-4 w-64"
+            className="mb-6 w-64"
             src="/assets/images/index/main.svg"
             alt="poppy&felix"
           />
-          <div className="text-center font-['Cafe24SsurroundAir'] text-lg">
+          <div className="text-center font-['Cafe24SsurroundAir'] text-xl">
             오 안녕!
             <br />
             반가워
