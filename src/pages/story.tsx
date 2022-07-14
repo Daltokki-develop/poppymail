@@ -97,7 +97,7 @@ const Story = () => {
                 src="/assets/images/story/6.svg"
                 alt="story6"
               />
-              <div className="absolute top-[10px] left-[50px] font-['Cafe24SsurroundAir'] text-xl">
+              <div className="absolute top-[10px] left-[30px] font-['Cafe24SsurroundAir'] text-xl">
                 “타임머신인데 랜덤이라니 오류 아니냐고?
                 <br />
                 아하하...
