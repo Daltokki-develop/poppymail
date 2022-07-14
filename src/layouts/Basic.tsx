@@ -11,12 +11,12 @@ const Basic = (props: IBasicProps) => {
   return (
     <>
       {!props.back && (
-        <div className="mx-4 flex h-28 items-center justify-center font-['AppleSDGothicNeo']">
+        <div className="mx-4 flex h-24 items-center justify-center font-['AppleSDGothicNeo']">
           <div>{props.title}</div>
         </div>
       )}
       {props.back && (
-        <div className="mx-4 flex h-28 items-center justify-between font-['AppleSDGothicNeo']">
+        <div className="mx-4 flex h-24 items-center justify-between font-['AppleSDGothicNeo']">
           <div className="flex w-16 items-center justify-center">
             <img className="w-14" src="/assets/images/back.svg" alt="back" />
           </div>
@@ -29,7 +29,7 @@ const Basic = (props: IBasicProps) => {
         </div>
       )}
 
-      <div className="h-[calc(100vh-10.5rem)]">{props.children}</div>
+      <div className="h-[calc(100vh-9rem)]">{props.children}</div>
       <div className="h-10 border-t border-gray-300 pt-4 text-center text-xs">
         © Copyright {new Date().getFullYear()} Poppymail. Powered with{' '}
         <span role="img" aria-label="Love">
