@@ -14,7 +14,7 @@ const Index = () => {
       }
     >
       <Basic title={'파피메일'}>
-        <div className="flex h-[27rem] w-full flex-col items-center justify-center">
+        <div className="mb-8 flex w-full flex-col items-center justify-center">
           <img
             className="mb-6 w-64"
             src="/assets/images/index/main.svg"
