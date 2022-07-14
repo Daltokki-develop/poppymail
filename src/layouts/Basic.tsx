@@ -29,7 +29,9 @@ const Basic = (props: IBasicProps) => {
         </div>
       )}
 
-      <div className="h-[calc(100vh-9rem)]">{props.children}</div>
+      <div className="flex h-[calc(100vh-9rem)] w-full flex-col justify-center">
+        {props.children}
+      </div>
       <div className="h-10 border-t border-gray-300 pt-4 text-center text-xs">
         © Copyright {new Date().getFullYear()} Poppymail. Powered with{' '}
         <span role="img" aria-label="Love">
