@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: 'Cafe24Ssurround';
-  src: url('/assets/fonts/Cafe24Ssurround.ttf') format('ttf');
+  src: url('/assets/fonts/Cafe24Ssurround.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Cafe24SsurroundAir';
-  src: url('/assets/fonts/Cafe24SsurroundAir.ttf') format('ttf');
+  src: url('/assets/fonts/Cafe24SsurroundAir.ttf') format('truetype');
 } 
